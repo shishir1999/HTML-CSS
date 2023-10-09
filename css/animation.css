@@ -1,0 +1,52 @@
+.container {
+    background-color: darkorchid;
+}
+
+.box {
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    /*  animation-name: shishir1;*/
+    animation-name: shishir2;   
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    /* animation-timing-function: ease-in-out; */
+    animation-fill-mode: alternate;
+    /* animation-delay: 3s; */
+/*     animation-direction: reverse; */
+
+}
+@keyframes shishir2 {
+    0%{
+        top: 0px;
+        left: 0px;
+
+    }
+    25%{
+        top: 250px;
+        left: 0px;
+
+    }
+    75%{
+        top: 250px;
+        left: 250px;
+
+    }
+    100%{
+        top: 0px;
+        left: 250px;
+}
+}
+
+/* @keyframes shishir1 {
+    from {
+        width: 200px;
+    }
+
+    to {
+        width: 800px;
+    }
+
+
+} */

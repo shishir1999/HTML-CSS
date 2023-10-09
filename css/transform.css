@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 80vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s ease-in-out;
+}
+.box{
+    background-color: tomato;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    transition: all 1s ease-in-out;
+    
+}
+.box:hover{
+    transform: rotate(45deg);
+    transform: scale(1.5);
+    transform: translate(123px, 123px);
+}

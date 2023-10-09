@@ -1,0 +1,134 @@
+h1 {
+   background-color: blueviolet;
+}
+#two {
+    background-color: brown;
+}
+img {
+    border-radius: 80px;
+    position: relative;
+}
+
+a:link {
+    color:blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+ 
+
+a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+th, td {
+    background-color: #96D4D4;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.city {
+    background-color: tomato;
+    color: wheat;
+    margin: 10px;
+    padding: 10px;
+}
+
+body { 
+    background-image: url(background.jpg);
+}
+#smit {
+    background-color: antiquewhite;
+    margin: 20px;
+}
+
+#boxm {
+    background-color: #96D4D4;
+    width: 300px;
+    border: 20px solid yellow;
+    padding: 60px;
+    margin: 30px;
+}
+
+ul.a {
+    list-style-type: georgian;
+}
+ol.b {
+    list-style-type: lower-latin;
+}
+
+#fb {
+    color: 	#4267B2;
+    size: 20px;
+}
+#ig {
+    color: 	#fa7e1e ;
+    size: 20px;
+}
+#x {
+    color: 	#00acee;
+    size: 20px;
+}
+#git {
+    color: 	#4078c0;
+    size: 20px;
+}
+
+div.static {
+    position: static;
+    border: 3px solid #73ad21;
+}
+div.relative{
+    position: relative;
+    border: 3px solid #73ad21;
+}
+
+#z {
+    position: absolute;
+    z-index: -1;
+}
+
+div.oflow {
+    background-color: #73ad21;
+    position: relative;
+    top: 110px;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
